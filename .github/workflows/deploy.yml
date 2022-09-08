@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
     
 env:
-  AZURE_FUNCTIONAPP_NAME: go-azure-function   # set this to your application's name
+  AZURE_FUNCTIONAPP_NAME: azgofuncapp   # set this to your application's name
 
 jobs:
 
@@ -33,5 +33,4 @@ jobs:
       uses: Azure/functions-action@v1
       with:
         app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
       
