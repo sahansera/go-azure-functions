@@ -8,7 +8,6 @@ import (
 	"os"
 )
 
-// string slice
 var quotes = []string{
 	"Talk is cheap. Show me the code.",
 	"First, solve the problem. Then, write the code.",
@@ -19,6 +18,8 @@ var quotes = []string{
 func quotesHandler(w http.ResponseWriter, r *http.Request) {
 	// Get a random quote
 	message := quotes[rand.Intn(len(quotes))]
+
+	// Write the response
 	fmt.Fprint(w, message)
 }
 
