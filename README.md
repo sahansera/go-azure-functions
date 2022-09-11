@@ -3,7 +3,7 @@
 
 Playground for deploying Azure Functions written in Go.
 
-✍️ [Blog post](https://sahansera.com/blog/2021/07/azure-functions-go/)
+✍️ [Blog post](https://sahansera.dev/serverless-go-with-azure-functions-github-actions)
 
 🎥 [Video](https://www.youtube.com/watch?v=0FqD8LTjHbg)
 
